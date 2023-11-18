@@ -1,0 +1,98 @@
+/* This is for the Nav Bar Styling */
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    nav a:hover {
+        border-bottom: 2px solid #fff;
+    }
+
+    
+    /* This is for the Page Content Styling */
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 0 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+    }
+    
+    h1 {
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    p {
+        margin-bottom: 20px;
+    }
+    
+    /* This is for the Styling for Home Page Image */
+
+    img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    /* This is for the Styling for Services Page List */
+    ul {
+        list-style: lower-alpha;
+        padding: 10px;
+        color: rgb(244, 51, 83);
+        
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
+    
+
+    /* This is for the Styling for Contact Form */
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-bottom: 5px;
+    }
+    
+    input,
+    textarea {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #555;
+    }
